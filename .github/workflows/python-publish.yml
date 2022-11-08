@@ -37,6 +37,6 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }} 
-        - name: Telegram Bot Server
-  uses: zjns/telegram-bot-server@v1
+    - name: Telegram Bot Server
+      uses: zjns/telegram-bot-server@v1
 
